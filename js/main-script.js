@@ -26,7 +26,7 @@ function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
-function showSlides(n) {
+function showSlides(n) {    
     var i;
     var aSlides = document.getElementsByClassName("a-slides");
     var aImgs = document.getElementsByClassName("a-slide-img");
